@@ -2,11 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _42a8883e = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages_about" */))
-const _0923b726 = () => interopDefault(import('..\\pages\\careers.vue' /* webpackChunkName: "pages_careers" */))
-const _03f5cb22 = () => interopDefault(import('..\\pages\\contactus.vue' /* webpackChunkName: "pages_contactus" */))
-const _3d5f6924 = () => interopDefault(import('..\\pages\\ourVehicles.vue' /* webpackChunkName: "pages_ourVehicles" */))
-const _62606303 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _6c2637fb = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages_about" */))
+const _6c1728ba = () => interopDefault(import('..\\pages\\careers.vue' /* webpackChunkName: "pages_careers" */))
+const _650ab8a8 = () => interopDefault(import('..\\pages\\contactus.vue' /* webpackChunkName: "pages_contactus" */))
+const _05979721 = () => interopDefault(import('..\\pages\\ourVehicles.vue' /* webpackChunkName: "pages_ourVehicles" */))
+const _e843da80 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 Vue.use(Router)
 
@@ -84,23 +84,23 @@ export function createRouter() {
 
     routes: [{
       path: "/about",
-      component: _42a8883e,
+      component: _6c2637fb,
       name: "about"
     }, {
       path: "/careers",
-      component: _0923b726,
+      component: _6c1728ba,
       name: "careers"
     }, {
       path: "/contactus",
-      component: _03f5cb22,
+      component: _650ab8a8,
       name: "contactus"
     }, {
       path: "/ourVehicles",
-      component: _3d5f6924,
+      component: _05979721,
       name: "ourVehicles"
     }, {
       path: "/",
-      component: _62606303,
+      component: _e843da80,
       name: "index"
     }],
 
