@@ -16,6 +16,15 @@
           <b-nav-item>
             <nuxt-link to="/contactus">{{$t('ContactUs')}}</nuxt-link>
           </b-nav-item>
+          <b-nav-item>
+            <nuxt-link to="/ourServices">{{$t('ourServices')}}</nuxt-link>
+          </b-nav-item>
+          <b-nav-item>
+            <nuxt-link to="/safety">{{$t('safetyandenvironment')}}</nuxt-link>
+          </b-nav-item>
+          <b-nav-item>
+            <nuxt-link to="/ourVehicles">{{$t('VehiclesTypes')}}</nuxt-link>
+          </b-nav-item>
         </b-navbar-nav>
         <languageSwitcher/>
       </b-collapse>
@@ -25,10 +34,8 @@
 <script>
 import languageSwitcher from "~/components/languageSwitcher.vue";
 export default {
-  data(){
-    return{
-
-    }
+  data() {
+    return {};
   },
   components: {
     languageSwitcher

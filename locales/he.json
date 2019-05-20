@@ -1,7 +1,10 @@
 {
-    "Hello":"שלום",
-    "Language":"שפה",
-    "ContactUs":"צור קשר",
-    "AboutUs":"עלינו",
-    "Careers":"עבודה"
+  "Hello": "שלום",
+  "Language": "שפה",
+  "ContactUs": "צור קשר",
+  "AboutUs": "עלינו",
+  "Careers": "עבודה",
+  "ourServices": "השירותים שלנו",
+  "safetyandenvironment": "בטיחות ואיכות הסביבה",
+  "VehiclesTypes": "סוגי רכבים"
 }

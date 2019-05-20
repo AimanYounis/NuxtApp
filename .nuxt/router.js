@@ -5,7 +5,9 @@ import { interopDefault } from './utils'
 const _6c2637fb = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages_about" */))
 const _6c1728ba = () => interopDefault(import('..\\pages\\careers.vue' /* webpackChunkName: "pages_careers" */))
 const _650ab8a8 = () => interopDefault(import('..\\pages\\contactus.vue' /* webpackChunkName: "pages_contactus" */))
+const _d7eca590 = () => interopDefault(import('..\\pages\\ourServices.vue' /* webpackChunkName: "pages_ourServices" */))
 const _05979721 = () => interopDefault(import('..\\pages\\ourVehicles.vue' /* webpackChunkName: "pages_ourVehicles" */))
+const _7f8f9a58 = () => interopDefault(import('..\\pages\\safety.vue' /* webpackChunkName: "pages_safety" */))
 const _e843da80 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 Vue.use(Router)
@@ -95,9 +97,17 @@ export function createRouter() {
       component: _650ab8a8,
       name: "contactus"
     }, {
+      path: "/ourServices",
+      component: _d7eca590,
+      name: "ourServices"
+    }, {
       path: "/ourVehicles",
       component: _05979721,
       name: "ourVehicles"
+    }, {
+      path: "/safety",
+      component: _7f8f9a58,
+      name: "safety"
     }, {
       path: "/",
       component: _e843da80,

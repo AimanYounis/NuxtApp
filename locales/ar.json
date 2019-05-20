@@ -1,7 +1,10 @@
 {
-    "Hello":"مرحبا",
-    "Language":"لغه",
-    "ContactUs":"اتصل بنا",
-    "AboutUs":"عنا",
-    "Careers":"وظائف عمل"
+  "Hello": "مرحبا",
+  "Language": "لغه",
+  "ContactUs": "اتصل بنا",
+  "AboutUs": "عنا",
+  "Careers": "وظائف عمل",
+  "ourServices": "خدماتنا",
+  "safetyandenvironment": "سلامة وجودة البيئة",
+  "VehiclesTypes": "انواع مركباتنا"
 }

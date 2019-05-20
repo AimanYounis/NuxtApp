@@ -1,34 +1,28 @@
 <template>
-  <div :class="{'ltr':getDirection,'rtl':!getDirection}">
-    <Header />
-    <nuxt />
+  <div>
+    <Header/>
+    <nuxt/>
   </div>
 </template>
 <script>
-import Header from '~/components/header.vue'
-import { mapActions, mapGetters } from "vuex";
+import Header from "~/components/header.vue";
 export default {
-  components:{
+  components: {
     Header
-  },
-  computed:{
-    getDirection(){
-         return this.$store.state.languages.locale.direction == 'ltr';
-       }
   }
-}
+};
 </script>
 
 <style>
-.ltr{
-  direction:ltr;
+.ltr {
+  direction: ltr;
 }
-.rtl{
+.rtl {
   direction: rtl;
 }
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

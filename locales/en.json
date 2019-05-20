@@ -1,7 +1,10 @@
 {
-    "Hello":"hello",
-    "Language":"Language",
-    "ContactUs":"Contact us",
-    "AboutUs":"About us",
-    "Careers":"Careers"
+  "Hello": "hello",
+  "Language": "Language",
+  "ContactUs": "Contact us",
+  "AboutUs": "About us",
+  "Careers": "Careers",
+  "ourServices": "Our Services",
+  "safetyandenvironment": "Safety and Environment Quality",
+  "VehiclesTypes": "Vehicles Types"
 }

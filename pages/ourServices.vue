@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <h1>contact us</h1>
-    </div>
+    <div></div>
 </template>
 <script>
 export default {
@@ -9,5 +7,5 @@ export default {
 }
 </script>
 <style>
-
+    
 </style>
